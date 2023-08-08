@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 6.03 sec <<< FAILURE! - in TestSuite
+setUp(TestLayer.LoginPageTest)  Time elapsed: 5.677 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=115.0.5790.111) 
+Host info: host: 'DESKTOP-6H32NNI', ip: '192.168.1.8'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at TestLayer.LoginPageTest.setUp(LoginPageTest.java:17)
+
